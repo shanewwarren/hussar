@@ -1,0 +1,42 @@
+{
+  "name": "hussar",
+  "version": "0.0.0",
+  "main": "lib/hussar.js",
+  "description": "Extremely light web crawler, used primarily to extract all relevant links for a website.",
+  "homepage": "https://github.com/shanewwarren/hussar",
+  "bugs": "https://github.com/shanewwarren/hussar/issues",
+  "author": {
+    "name": "Shane Warren",
+    "email": "shanewwarren@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanewwarren/hussar"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "hussar",
+    "crawler",
+    "spider"
+  ],
+  "devDependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.17.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0",
+    "load-grunt-tasks": "^0.4.0",
+    "nock": "^0.47.0",
+    "request": "^2.42.0",
+    "time-grunt": "^0.3.1",
+    "util": "^0.10.3"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
